@@ -8,7 +8,7 @@ This repository is connected to your live project on [SandboxPro](https://code-s
 
 ## Live Project URL
 
-You can check live preview URL in your repository's About section.
+You can check live preview url in your repository about section.
 
 ## How It Works
 

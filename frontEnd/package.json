@@ -1,13 +1,34 @@
 {
   "name": "frontend-app",
   "version": "1.0.0",
+  "main": "/src/main.jsx",
   "dependencies": {
-    "react": "latest",
-    "react-dom": "latest",
-    "@testing-library/react": "latest",
-    "@testing-library/jest-dom": "latest",
-    "@testing-library/user-event": "latest",
-    "msw": "latest",
-    "jest": "latest"
+    "@vitejs/plugin-react": "^6.0.4",
+    "axios": "^1.19.0",
+    "prop-types": "^15.8.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-icons": "^5.7.0",
+    "react-router-dom": "^7.18.2",
+    "@tanstack/react-router": "^1.0.0",
+    "framer-motion": "^12.0.0",
+    "vite": "^8.1.5",
+    "tailwind-merge": "^3.3.1",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "clsx": "^2.1.1",
+    "tailwindcss": "^4.1.12",
+    "@tailwindcss/postcss": "^4.1.12",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "concurrently": "^8.2.2",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^15.15.0",
+    "prettier": "^3.7.3"
   }
 }
